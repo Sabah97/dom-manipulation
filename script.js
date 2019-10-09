@@ -10,5 +10,13 @@ var div=document.getElementById('task2a')
 div.appendChild(p)
 }
 
+function addColor(event){
+    document.body.style.backgroundColor= event.target.innerText.toLowerCase();
+}
+function addPage(event){
+    window.location.href = "https://www.google.com/";
+
+}
+
 
 /* Task 4 using jQuery */
