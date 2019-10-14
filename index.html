@@ -7,34 +7,35 @@
 
     <h2 id="heading">DOM Manipulation Exercises</h3>
     <h4>Task 2 a</h4>
-    <button onclick="addText()">ADD Text</button>
+    <button onclick="addText(event)">Add text</button>
     <div id="task2a"></div>
-   
 
     <h4>Task 2 b</h4>
-    <button onclick="addColor(event)">RED</button>
-
-    <button onclick="addColor(event)">Green</button>
-
-    <div id="task2b"></div>
-
+    <button onclick="changeBackground(event)" id='red' >I BLEED RED!!!!!</button>
+    <button onclick="changeBackground(event)" id='green'>I BLEED GREEN!!!!!</button>
 
     <h4>Task 2 c</h4>
-    <button onclick="addPage(event)">Want to go to google?</button>
-
+    <button onclick="takeMeToGoogle(event)">Click here to go to Google</button>
 
     <!-- ***** -->
     <h3>With jQuery</h3>
     <h4>Task 4 a</h4>
+    <button id='addText'>Add Text with jQuery</button>
     <div id="task4a"></div>
-
+    
     <h4>Task 4 b</h4>
-
+    <button class="bgBtn" >Green</button>
+    <button class="bgBtn" >Red</button>
 
     <h4>Task 4 c</h4>
-
+  <input type="number" id="num1">
+  <input type="number" id="num2">
+  <button id="add">Add</button>
+  <p id='sum'></p>
 
     <!-- Insert your JavaScript file -->
-<script src="script.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+
   </body>
 </html>
